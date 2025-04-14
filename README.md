@@ -112,17 +112,6 @@ Build a small portfolio website using only Bootstrap
 
 ---
 
-### 🔹 Part 7: Advanced (Optional) - Sass
-
-- Use variables, nesting, and partials in Sass
-- Compile Sass to CSS
-
-**Bonus**:  
-Implement a dark mode using Sass variables
-
-**Questions**:  
-- How does Sass help manage CSS complexity?  
-- What are mixins?
 
 ---
 
@@ -133,7 +122,6 @@ Implement a dark mode using Sass variables
 - [ ] `style.css` applied correctly
 - [ ] Responsive behavior tested
 - [ ] Bootstrap components integrated
-- [ ] Sass code (optional)
 
 ---
 
