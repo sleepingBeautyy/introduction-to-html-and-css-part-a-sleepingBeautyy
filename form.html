@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Form Page</title>
+</head>
+<body>
+    <nav style="background-color: #333; padding: 10px;">
+        <a href="index.html" style="color: white; margin-right: 15px; text-decoration: none;">Home</a>
+        <a href="form.html" style="color: white; margin-right: 15px; text-decoration: none;">Form</a>
+        <a href="bootstrap.html" style="color: white; text-decoration: none;">Bootstrap</a>
+      </nav>
+      
+  <form>
+    <fieldset>
+      <legend>Personal Info</legend>
+      Name: <input type="text" required /><br />
+      Email: <input type="email" required /><br />
+      Password: <input type="password" required /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Other Details</legend>
+      Gender: 
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female<br />
+
+      Interests:
+      <input type="checkbox" /> Reading
+      <input type="checkbox" /> Coding<br />
+
+      Country:
+      <select>
+        <option>Tanzania</option>
+        <option>Kenya</option>
+        <option>Uganda</option>
+      </select><br />
+      
+      Profile Picture: <input type="file" /><br />
+    </fieldset>
+
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
